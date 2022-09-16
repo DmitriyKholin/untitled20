@@ -1,5 +1,5 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+public class Bicycle extends Transport {
+    public Bicycle(String modelName, int wheelsCount) {
+        super(modelName, wheelsCount);
     }
 }
