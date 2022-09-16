@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Truck {
+public class Truck extends Transport {
+    public Truck(String modelName, int wheelsCount) {
+        super(modelName, wheelsCount);
+    }
 }
